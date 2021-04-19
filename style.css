@@ -5,25 +5,57 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.hero_image{
-    background: url("images/background.png");
-      /* Set a specific height */
-  height: 100%;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
 .hero_section{
     padding: 0 60px;
     color: white;
+    background: cornflowerblue;
     background-image: url("images/background.png");
     background-size: 1400px;
-    /* background: cornflowerblue; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
 }
 
-h1{
-    color: blue;
+.hero_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 820px;
+
 }
+
+.column_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.column_left h1 {
+    font-size: 90px;
+    color:cornflowerblue;
+
+}
+
+.column_left h4 {
+    font-size: 24px;
+    color: blueviolet;
+    line-height: 2.3;
+}
+
+.column_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header_image {
+    height: 100%;
+    width: 100%;
+
+}
+
