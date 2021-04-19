@@ -165,7 +165,41 @@
     }
 }
 
-/* Services Styling */
+/* Projects Styling */
+
+.projects{
+    background:rgb(18, 91, 175);
+    color: white;
+    position: relative;
+}
+
+.projects_container{
+    background: royalblue;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+
+.projects_grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 700px;
+}
+
+.projects_container h1{
+    font-size: 50px;
+}
+
+.projects_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 50px;
+}
+
+.project_img{
+    height: 120px;
+}
 
 
     
