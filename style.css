@@ -32,7 +32,7 @@
 
 .column_left h1 {
   font-size: 90px;
-  color: cornflowerblue;
+  color: rgb(18, 91, 175);
 }
 
 .column_left h4 {
@@ -91,6 +91,44 @@
     justify-content: flex-start;
 }
 
-.main_img{
+.main_container h1 {
+    font-size: 110px;
+    color: darkcyan;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: darkslateblue;
+    margin-top: 32px;
+
+}
+
+.main_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px;
+}
+
+.main_text{
+    padding-right: 20px;
+}
+
+.main_text h2 {
+    font-size: 48px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.main_text p {
+    line-height: 2.3;
+}
+
+.main_image{
+    display: flex;
+    justify-content: center;
+}
+
+.main_img{ 
+    width:410px;
+    height:475px;
     border-radius: 75%;
+    
 }
