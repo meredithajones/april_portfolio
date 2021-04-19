@@ -76,3 +76,21 @@
     font-size: 32px;
   }
 }
+
+/* About Section */
+.main_section{
+    padding: 60px 60px;
+    background: linear-gradient( #f2f3f4 5%, #F0F8FF 15%, #4B9CD3 50%,  #000851 100%);
+    color: blue;
+
+}
+
+.main_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main_img{
+    border-radius: 75%;
+}
