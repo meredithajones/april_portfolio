@@ -1,61 +1,78 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-.hero_section{
-    padding: 0 60px;
-    color: white;
-    background: cornflowerblue;
-    background-image: url("images/background.png");
-    background-size: 1400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-
+.hero_section {
+  padding: 0 60px;
+  color: white;
+  background: cornflowerblue;
+  background-image: url("images/background.png");
+  background-size: 1400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.hero_wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 820px;
-
+.hero_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 820px;
 }
 
-.column_left{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
+.column_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .column_left h1 {
-    font-size: 90px;
-    color:cornflowerblue;
-
+  font-size: 90px;
+  color: cornflowerblue;
 }
 
 .column_left h4 {
-    font-size: 24px;
-    color: blueviolet;
-    line-height: 2.3;
+  font-size: 24px;
+  color: blueviolet;
+  line-height: 2.3;
 }
 
 .column_right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header_image {
-    height: 100%;
-    width: 100%;
-
+  height: 100%;
+  width: 100%;
 }
 
+@media screen and (max-width: 1100px) {
+  .hero_section {
+    padding: 30px;
+  }
+
+  .hero_wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .column_left h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .hero_wrapper {
+    grid-template-rows: 600px;
+  }
+
+  .column_left h1 {
+    font-size: 32px;
+  }
+}
