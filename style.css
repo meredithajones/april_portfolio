@@ -247,7 +247,28 @@
         padding-bottom: 160px;
         padding-left: 16px;
     }
-    
+.projects_grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 900px;
 }
+.projects_container h1 {
+    text-align: center;
+    margin-bottom: 170px
+}
+
+.projects_left{
+    padding: 0 24px;
+}
+
+.projects_content{
+    margin-top: 40px;
+}
+
+.projects_content img {
+    margin-right: 16px;
+}
+}
+
+/* Portfolio Styling */
 
     
