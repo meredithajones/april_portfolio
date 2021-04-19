@@ -271,4 +271,41 @@
 
 /* Portfolio Styling */
 
+.portfolio {
+    background: rgb(7, 38, 88);
+    color: white;
+}
+
+.portfolio_container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
     
+.portfolio_container h1 {
+    font-size: 110px;
+    color: darkcyan;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: darkslateblue;
+    margin-top: 32px;
+}
+
+.portfolio_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portfolio_img {
+    height: 100%;
+    width:100%;
+}
+
+.portfolio_right {
+    padding: 150px 100px 0 20px;
+}
+
+.portfolio_right h2 {
+    margin-bottom: 40px;
+    font-size: 30px;
+}
