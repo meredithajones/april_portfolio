@@ -384,6 +384,17 @@
     }
 }
 
+@media screen and (max-width: 468px) {
+    .portfolio{
+        padding: 10px;
+    }
+    
+    .portfolio_container h1 {
+        font-size: 40px;
+    }
+}
+
+/* Contact Section Styling */
 
     
 
