@@ -36,11 +36,23 @@
 }
 
 @media screen and (max-width: 1000px){
-    .footer_container{
+    .navbar_container{
         padding: 60px 24px;
         grid-template-columns: 1fr 1fr;
     }
+    .navbar_right{
+        flex-direction: column;
+
+    }
 }
+
+@media screen and (max-width: 468px) {
+    .navbar_right{
+        padding: 0 16px;
+    }
+}
+    
+
 
 
 .logo {
