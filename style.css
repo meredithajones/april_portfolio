@@ -5,6 +5,52 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.navbar {
+    background: steelblue;
+    color:rgb(157, 241, 252);
+
+}
+
+.navbar_container {
+    padding: 14px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.navbar_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar_right {
+    display:flex;
+    justify-content: space-evenly;
+    padding: 0 180px;
+}
+
+.navbar_right a {
+    color:seashell;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1000px){
+    .footer_container{
+        padding: 60px 24px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+.logo {
+    display: flex;
+    height: 85px;
+    width: 80px;
+    padding-left: -50px;
+
+}
+
 .hero_section {
   padding: 0 60px;
   color: white;
