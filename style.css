@@ -433,6 +433,39 @@
     }
 
 /* Contact Section Media Queries */
+@media screen  and (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+    
+    }
+
+    .contact_bar {
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .contact_bar p {
+        margin-right: 16px;
+    }
+
+    .contact_bar span {
+        font-size: 16px;
+    }
+
+    .contact h1 {
+        margin-left: 0;
+        margin-top: 32px;
+        font-size: 32px;
+    }
+}
+
+/* Footer Styling */
+.footer {
+    background: steelblue;
+    color:rgb(157, 241, 252);
+
+}
 
 
 
