@@ -467,6 +467,38 @@
 
 }
 
+.footer_container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_left h2 {
+    margin-bottom: 24px;
+
+}
+
+.footer_left p {
+    line-height: 2;
+}
+
+.footer_right {
+    display:flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.footer_right a {
+    color:seashell;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
 
 
