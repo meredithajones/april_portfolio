@@ -396,6 +396,44 @@
 
 /* Contact Section Styling */
 
-    
+.contact {
+    display: flex;
+    align-items: center;
+    background:rgb(7, 38, 88);
+    padding: 100px 0;
+}
+
+.contact_bar {
+    background: rgb(157, 241, 252);
+    height: 80px;
+    width: 68%;
+    color:slateblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+    .contact_bar img {
+        margin-right: 40px;
+    }
+
+    .contact_bar p {
+        margin-right: 40px;
+        font-weight: 700;
+    }
+
+    .contact_bar span {
+        margin-right: 40px;
+    }
+
+    .contact h1 {
+        margin-left: 100px;
+        font-size: 40px;
+        color: white;
+    }
+
+/* Contact Section Media Queries */
+
+
 
 
