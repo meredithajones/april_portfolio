@@ -81,17 +81,22 @@
         transition: all 0.5s ease;
         z-index: -1;
     }
+
+    
 /* Dropdown Nav Menu Styling */
     .navbar_menu.active {
         background: rgb(9, 9, 126);
         top: 100%;
+        line-height: 1px;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
         height: 80vh;
         font-size: 1.6rem;
-        line-height: 1px;
+
     }
+
+    
 
     .navbar_toggle .bar {
         width: 28px;
@@ -110,7 +115,8 @@
         padding: 1px;
         width: 100%;
         display: table;
-    }
+        line-height: 1px;
+        }
 
     #mobile-menu {
         position: absolute;
@@ -163,6 +169,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 820px;
 }
+
 
 .column_left {
   display: flex;
