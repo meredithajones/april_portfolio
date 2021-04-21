@@ -660,5 +660,13 @@
     font-weight: 700;
 }
 
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
 
 
