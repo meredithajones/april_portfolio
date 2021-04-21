@@ -93,6 +93,7 @@
         z-index: 99;
         height: 80vh;
         font-size: 1.6rem;
+        padding: 1px;
 
     }
 
@@ -115,7 +116,7 @@
         padding: 1px;
         width: 100%;
         display: table;
-        line-height: 1px;
+      
         }
 
     #mobile-menu {
@@ -181,12 +182,23 @@
 .column_left h1 {
   font-size: 90px;
   color: rgb(18, 91, 175);
+  border: 15px;
+  padding: 20px;
+  border-radius: 15px 50px;
+    border-style: solid;
+    background-color: rgba(106, 179, 188, 0.75);
+    /* color: #00008B; */
 }
 
 .column_left h4 {
   font-size: 24px;
-  color: blueviolet;
+  color: rgba(35, 81, 87);
   line-height: 2.3;
+  border: 0px;
+  padding: 20px;
+  border-radius: 50px 50px;
+  border-style: solid;
+  background-color: rgba(216, 241, 240, 0.75);
 }
 
 .column_right {
