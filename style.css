@@ -660,12 +660,31 @@
     font-weight: 700;
 }
 
+/* Contact section styling */
 .contact{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 150vh;
 }
+
+.contact_container {
+    width: 800px;
+    background-color: rgb(48, 94, 91, .70);
+
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+
+}
+
+.form-label {
+    font-size: .75em;
+    color:rgb(7, 38, 88);
+}
+
+
 
 
 
