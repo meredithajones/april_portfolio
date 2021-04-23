@@ -687,7 +687,7 @@
     opacity: 1;
 }
 
-.form-control {
+.fcf-form-control {
     box-shadow: none;
     border-radius: 0;
     border-color: white;
@@ -703,7 +703,7 @@
     outline: none;
 }
 
-.btn {
+.fcf-btn {
     background:rgb(9, 9, 126);
     border: 1px solid darkcyan;
     border-radius: 3px;
@@ -713,7 +713,7 @@
     text-transform: uppercase;
 }
 
-.btn:hover {
+.fcf-btn:hover {
     color:rgb(25, 228, 228);
     cursor: pointer;
     border-color: white;
@@ -725,6 +725,10 @@ textarea {
 
 placeholder {
     color:rgb(102, 12, 12);
+}
+
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+    width: 100%;
 }
 
 
