@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +8,8 @@
     <title>Portfolio Website</title>
     <!-- Adding Favicon -->
     <link rel="shortcut icon" type="image/jpg" href="images/favion.jpg"/>
+    <!-- Linking -->
+    <link rel="stylesheet" href="webform.css" media="all">
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -65,11 +68,13 @@
         </div>
     </div>
     <!-- Contact Section -->
+    <div class="fcf-body">
+        <div id="fcf-form"> 
     <div class="contact" id="contact">
         <div class="contact_container">
             <h1>Get in Touch!</h1>
             <!-- Name Input -->
-           <form action="" method= "POST" class="form"></form> 
+           <form action="contact-form-process.php" method= "POST" class="fcf-form-class"></form> 
             <div class ="form-group">
             <label for "name" class="form-label">Your Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="First, Last"
@@ -95,12 +100,6 @@
         </form>
             <button type= "submit" class= "btn" tabindex="5">Send Email</button>
         </div>
-
-
-
-           
-        
-               
                     </div>
                 </div> -->
         
