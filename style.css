@@ -732,7 +732,54 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 
+.project_container {
+    width: 350px;
+    height: 450px;
+    z-index:999;
+    padding: 10px 10px 10px 10px;
+    
+   
+    top:0; right: 0; left: 0; bottom: 0;
+    margin: auto;
+    
+    background: url("/images/FFA.png");
+    background-color: black;
+    background-size: 100%;
+    cursor: pointer;
+    
+    -webkit-box-shadow: 0 0 5px #000;
+          box-shadow: 0 0 5px #000;
+    }
+  
+    .overlay {
+        width: 100%;
+        height: 100%;
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 2fr 1fr;
+        
+        background: rgba(77, 77, 77, .9);
+        color: rgb(243, 237, 237);
+        opacity: 0;
+        transition: all 0.5s;
+        
+        font-family: 'Playfair Display', serif;
+      }
 
+      .project_description {
+        padding-left: 20px;
+        letter-spacing: 3px;
+      }
 
+      .project_header {
+          font-size: 30px;
+          line-height: 40px;
 
+          transform: translateY(40px);
+          transition: all 0.7s;
+      }
 
+      .desc_1 {
+            color: lighten(rgb(77, 77, 77),40%);
+      }
