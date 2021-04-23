@@ -74,18 +74,25 @@
         <div class="contact_container">
             <h1>Get in Touch!</h1>
             <!-- Name Input -->
-           <form action="contact-form-process.php" method= "POST" class="fcf-form-class"></form> 
-            <div class ="form-group">
-            <label for "name" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="First, Last"
+           <form id= "fcf-form-id" action="contact-form-process.php" method= "POST" class="fcf-form-class"></form> 
+            <div class ="fcf-form-group">
+            <label for "name" class="fcf-label">Your Name</label>
+            <div class="fcf-input-group">
+            <input type="text" class="fcf-form-control" id="name" name="name" placeholder="First, Last"
             tabindex= "1" required>
             </div>
+        </div>
         <!-- Email Input -->
-            <div class ="form-group">
-                <label for "email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="wonderfulnews@youremail.com"
+            <div class ="fcf-form-group">
+                <label for "email" class="fcf-label">Email</label>
+               <div class="fcf-input-group"> 
+                <input type="email" class="fcf-form-control" id="email" name="email" placeholder="wonderfulnews@youremail.com"
                 tabindex= "2" required>
             </div>  
+        </div>
+
+        
+
             <!-- Subject Input -->
             <div class="form-group">
                 <label for ="subject" class="form-label">Subject</label>

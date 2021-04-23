@@ -674,13 +674,13 @@
 
 }
 
-.form-group {
+.fcf-form-group {
     margin-bottom: 1.5em;
     padding: 10px;
 
 }
 
-.form-label {
+.fcf-label {
     font-size: .75em;
     color:rgb(7, 38, 88);
     display: block;
