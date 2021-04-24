@@ -759,7 +759,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr 2fr 1fr;
         
-        background: rgba(77, 77, 77, .9);
+        background: rgba(46, 45, 54, 0.9);
         color: rgb(243, 237, 237);
         opacity: 0;
         transition: all 0.5s;
@@ -783,7 +783,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
       .desc_1 {
             color: lighten(rgb(77, 77, 77),40%);
-            scroll-padding-top: 10px;
+            padding-top: 15px;
       }
 
       .project_container:hover .overlay {
