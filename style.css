@@ -774,8 +774,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
       .project_header {
           font-size: 30px;
-          line-height: 40px;
+          line-height: 20px;
           padding-bottom: 40px;
+          margin-top: 2px;
 
           transform: translateY(40px);
           transition: all 0.7s;
@@ -784,12 +785,33 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
       .desc_1 {
             color: lighten(rgb(77, 77, 77),40%);
             padding-top: 15px;
+            font-size: 25px;
       }
 
       .project_container:hover .overlay {
         opacity: 1;
       }
 
-        /* .head {
-          transform: translateY(0px);
-        } */
+      .project_links {
+          align-items: center;
+          text-transform: uppercase;
+
+      }
+
+      #fa-icon {
+          font-size: 20px;
+      }
+
+      .btn {
+          width: 150px;
+          height: 40px;
+          background: rgb(2, 2, 83, .80);
+          border-radius: 10px;
+        
+      }
+
+      .btn:hover {
+        color:rgb(25, 228, 228);
+        cursor: pointer;
+        border-color: white;
+    }
