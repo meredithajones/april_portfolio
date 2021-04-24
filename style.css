@@ -775,6 +775,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
       .project_header {
           font-size: 30px;
           line-height: 40px;
+          padding-bottom: 40px;
 
           transform: translateY(40px);
           transition: all 0.7s;
@@ -782,4 +783,13 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
       .desc_1 {
             color: lighten(rgb(77, 77, 77),40%);
+            scroll-padding-top: 10px;
       }
+
+      .project_container:hover .overlay {
+        opacity: 1;
+      }
+
+        /* .head {
+          transform: translateY(0px);
+        } */
