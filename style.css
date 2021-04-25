@@ -807,6 +807,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
           height: 40px;
           background: rgb(2, 2, 83, .80);
           border-radius: 10px;
+          color: white;
         
       }
 
