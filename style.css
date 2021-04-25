@@ -731,6 +731,14 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     width: 100%;
 }
 
+.project_card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+ 
+}
+
 
 .project_container {
     width: 350px;
