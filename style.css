@@ -733,22 +733,23 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 .cardWrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 3fr);
     grid-auto-rows: auto;
-    gap: 20px;
+    gap: 10px;
     margin: 0 auto;
     max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
  
 }
 
 
 .project_container {
-    width: 350px;
+    width: 450px;
     height: 450px;
     z-index:999;
     padding: 10px 10px 10px 10px;
-    
-   
     top:0; right: 0; left: 0; bottom: 0;
     margin: auto;
     
@@ -763,6 +764,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   
     .project_card {
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+        border: 20px white;
     }
     .overlay {
         width: 100%;
