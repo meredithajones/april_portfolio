@@ -733,10 +733,11 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 .cardWrapper {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(3, 200px);
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
  
 }
 
@@ -760,14 +761,16 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
           box-shadow: 0 0 5px #000;
     }
   
+    .project_card {
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    }
     .overlay {
         width: 100%;
         height: 100%;
         
-        display: grid;
+        display: block;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr 2fr 1fr;
-        
+        grid-template-rows: 1fr 3fr 2fr 1fr;
         background: rgba(46, 45, 54, 0.9);
         color: rgb(243, 237, 237);
         opacity: 0;
@@ -777,6 +780,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
       }
 
       .project_description {
+        padding-top: 40px;
         padding-left: 20px;
         letter-spacing: 3px;
       }
@@ -784,7 +788,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
       .project_header {
           font-size: 30px;
           line-height: 20px;
-          padding-bottom: 40px;
+          padding-bottom: 20px;
           margin-top: 2px;
 
           transform: translateY(40px);
@@ -793,7 +797,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
       .desc_1 {
             color: lighten(rgb(77, 77, 77),40%);
-            padding-top: 15px;
             font-size: 25px;
       }
 
