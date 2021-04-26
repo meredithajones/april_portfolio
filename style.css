@@ -380,18 +380,6 @@
     line-height: 2;
 }
 
-.yellow_bar {
-    position: absolute;
-    background: yellow;
-    height: 80px;
-    bottom: -40px;
-    right: 0;
-    width: 80%;
-    color: darkturquoise;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
 
 /* Projects Media Queries */
 
@@ -439,14 +427,15 @@
 .portfolio_container {
     padding-top: 50px;
     padding-bottom: 100px;
+    padding-left:10px;
 }
     
 .portfolio_container h1 {
     font-size: 110px;
-    color: darkcyan;
+    color: rgb(150, 236, 236);
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: darkslateblue;
+    -webkit-text-stroke-color: rgb(130, 104, 163);
     margin-top: 32px;
 }
 
@@ -483,7 +472,7 @@
     }
 
     .portfolio_container {
-        padding-left: 0px;
+        padding-left: 20px;
     }
 
     .portfolio_right{
@@ -706,9 +695,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         flex-direction: row;
       }
 
-      #sns {
-          background-image: 80%;
-      }
 
 .cardWrapper {
     margin: 10 auto;
@@ -721,7 +707,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 .project_container {
     width: 400px;
-    height: 450px;
+    height: 475px;
     gap: 10px;
     z-index:700;
     padding: 10px 10px 10px 10px;
@@ -746,7 +732,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     .overlay {
         width: 100%;
         height: 100%;
-        display: block;
+        height: 465px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 3fr 2fr 1fr;
         background: rgba(46, 45, 54, 0.9);
@@ -804,4 +790,14 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         color:rgb(25, 228, 228);
         cursor: pointer;
         border-color: white;
+    }
+
+    #projectPage {
+        align-items: center;
+        margin: 10px 10px 60px;
+        color: white;
+    }
+
+    #projectPage:hover {
+        color: rgb(9, 196, 202);
     }
