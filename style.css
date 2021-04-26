@@ -706,6 +706,10 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         flex-direction: row;
       }
 
+      #sns {
+          background-image: 80%;
+      }
+
 .cardWrapper {
     margin: 10 auto;
     max-width: 600px;
