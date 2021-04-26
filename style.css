@@ -438,7 +438,7 @@
 
 .portfolio_container {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
     
 .portfolio_container h1 {
@@ -700,9 +700,8 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 .columns {
         display: grid;
-        grid-template-columns: repeat(3, 3fr);
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));;
         gap: 10px;
-        /* grid-auto-rows: minmax(100px, auto); */
         grid-auto-rows: auto;
         flex-direction: row;
       }
@@ -712,26 +711,27 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     max-width: 600px;
     justify-content: center;
     flex-direction: row;
- 
+    padding-bottom: 100px;
 }
 
 
 .project_container {
     width: 400px;
-    height: 600px;
+    height: 450px;
     gap: 10px;
     z-index:700;
     padding: 10px 10px 10px 10px;
     top:0; right: 0; left: 0; bottom: 0;
     margin: auto;
     resize: horizontal;
-    overflow: auto;
+    overflow: none;
     background: url("/images/FFA.png");
     background-color: black;
     background-size: 100%;
     cursor: pointer;
     -webkit-box-shadow: 0 0 5px #000;
           box-shadow: 0 0 5px #000;
+    padding-bottom: 100px;
     }
 
     .project_card {
