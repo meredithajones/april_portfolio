@@ -849,3 +849,11 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 .languages{
     line-height: 30px;
 }
+
+.skillColumns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1000px, 4fr));;
+    gap: 10px;
+    grid-auto-rows: auto;
+    flex-direction: row;
+  }
