@@ -271,6 +271,10 @@
     padding-right: 20px;
 }
 
+.bio {
+    font-size: 17px;
+}
+
 .main_text h2 {
     font-size: 48px;
     line-height: 1.5;
@@ -801,3 +805,47 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     #projectPage:hover {
         color: rgb(9, 196, 202);
     }
+
+    /* Skills Section Styling*/
+.skills {
+    background: none;
+    color:rgb(157, 241, 252);
+
+}
+
+.skills_container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.skills_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills_left h2 {
+    margin-bottom: 24px;
+
+}
+
+.skills_left p {
+    line-height: 2;
+}
+
+.skills_right {
+    display:flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.skills_right a {
+    color:seashell;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.languages{
+    line-height: 30px;
+}
