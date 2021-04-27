@@ -813,31 +813,12 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 }
 
-.skills_container {
-    padding: 30px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-.skills_left {
-    display: flex;
-    flex-direction: column;
-}
 
 .skills_left h2 {
     margin-bottom: 24px;
 
 }
 
-.skills_left p {
-    line-height: 2;
-}
-
-.skills_right {
-    display:flex;
-    justify-content: space-between;
-    padding: 0 100px;
-}
 
 .skills_right a {
     color:seashell;
@@ -850,10 +831,29 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     line-height: 30px;
 }
 
-.skillColumns {
+/* .skillColumns {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1000px, 4fr));;
     gap: 10px;
     grid-auto-rows: auto;
     flex-direction: row;
+  } */
+
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
   }
