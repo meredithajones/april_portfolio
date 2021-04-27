@@ -187,7 +187,7 @@
   border-radius: 15px 50px;
     border-style: solid;
     background-color: rgba(106, 179, 188, 0.75);
-    /* color: #00008B; */
+  
 }
 
 .column_right h4 {
@@ -831,13 +831,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     line-height: 30px;
 }
 
-/* .skillColumns {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1000px, 4fr));;
-    gap: 10px;
-    grid-auto-rows: auto;
-    flex-direction: row;
-  } */
 
   .column {
     float: left;
@@ -852,8 +845,22 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   }
 
   /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .column {
       width: 100%;
+      padding-bottom: 35px;
     }
   }
+
+.skillHeader {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+
+.skillSection {
+    color: hsl(240, 64%, 27%);
+    padding-bottom: 60px;
+    font-size: 40px;
+    
+}
