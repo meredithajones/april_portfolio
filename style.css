@@ -211,8 +211,9 @@
 
 .headline {
     color: midnightblue;
+    background-color: rgb(58, 169, 189, .70);
     font-size:50px;
-    border-radius: 50%;
+    border-radius: 80%;
     align-items: center;
     border-width: 20px;
 
@@ -605,8 +606,13 @@ background-color: rgb(58, 169, 189, .70);
 
 /* Footer Styling */
 .footer {
-    background: steelblue;
-    color:rgb(157, 241, 252);
+    background: 
+    linear-gradient(
+      rgba(94, 139, 153, 0.45), 
+      rgba(14, 207, 233, 0.45)
+    ),
+     url("images/background.png");
+    color:rgba(243, 245, 245, 0.8);
 
 }
 
