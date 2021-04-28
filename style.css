@@ -626,20 +626,25 @@
     margin-top: 32px;
 }
 
-.column {
+/* .column {
     float: left;
     width: 50%;
   }
   
   /* Clear floats after the columns */
-  .row:after {
+  /* .row:after {
     content: "";
     display: table;
     clear: both;
+  } */
+
+  .flex-container {
+      display: flex;
+
   }
 
   .contactImg {
-      height: 350px;
+      height: 300px;
   }
 
 /* Footer Styling */
