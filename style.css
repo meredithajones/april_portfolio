@@ -211,7 +211,7 @@
 
 .headline {
     color: midnightblue;
-    background-color: rgb(58, 169, 189, .70);
+    background-color: rgba(192, 222, 228, 0.7);
     font-size:50px;
     border-radius: 80%;
     align-items: center;
@@ -220,8 +220,10 @@
 }
 
 .heroButton {
-background-color: rgb(58, 169, 189, .70);
-  border: none;
+  background-color: rgb(58, 169, 189, .70);
+  border-style: solid;
+  border-color: white;
+  border-width: 4px;
   color: midnightblue;
   padding: 15px 32px;
   text-align: center;
