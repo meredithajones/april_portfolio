@@ -153,6 +153,7 @@
 
 }
 
+/* Hero Section Styling */
 .hero_section {
   padding: 0 60px;
   color: white;
@@ -181,7 +182,7 @@
 
 .column_left h1 {
   font-size: 90px;
-  color: rgb(18, 91, 175);
+  color:whitesmoke;
   border: 15px;
   padding: 20px;
   border-radius: 15px 50px;
@@ -206,6 +207,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.headline {
+    color: midnightblue;
+    font-size:50px;
+    border-radius: 50%;
+    align-items: center;
+    border-width: 20px;
+
+}
+
+.heroButton {
+background-color: rgb(58, 169, 189, .70);
+  border: none;
+  color: midnightblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 20px;
+
 }
 
 .header_image {
@@ -241,7 +264,7 @@
 .main_section{
     padding: 60px 60px;
     background: linear-gradient( #f2f3f4 5%, #F0F8FF 15%, #4B9CD3 50%,  #000851 100%);
-    color: blue;
+    color:midnightblue;
 
 }
 
@@ -256,7 +279,7 @@
     color: darkcyan;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: darkslateblue;
+    -webkit-text-stroke-color: #191970;
     margin-top: 32px;
 
 }
@@ -272,7 +295,8 @@
 }
 
 .bio {
-    font-size: 17px;
+    font-size: 18px;
+    margin-left:20px;
 }
 
 .main_text h2 {
@@ -294,7 +318,6 @@
     width:410px;
     height:475px;
     border-radius: 75%;
-    
 }
 
 
