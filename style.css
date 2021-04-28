@@ -606,6 +606,17 @@
     }
 }
 
+/* Contact Page Styling */
+
+.contactHeader {
+    font-size: 110px;
+    color: rgb(150, 236, 236);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(130, 104, 163);
+    margin-top: 32px;
+}
+
 /* Footer Styling */
 .footer {
     background: 
