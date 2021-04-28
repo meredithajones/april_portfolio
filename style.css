@@ -613,7 +613,7 @@ background-color: rgb(58, 169, 189, .70);
 .footer_container {
     padding: 30px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 5fr ;
 }
 
 .footer_left {
@@ -631,9 +631,9 @@ background-color: rgb(58, 169, 189, .70);
 }
 
 .footer_right {
-    display:flex;
-    justify-content: space-between;
-    padding: 0 100px;
+    /* display:flex; */
+    justify-content: left;
+    /* padding: 0 100px; */
 }
 
 .footer_right a {
