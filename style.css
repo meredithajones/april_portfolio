@@ -608,6 +608,15 @@
 
 /* Contact Page Styling */
 
+.contactSection {
+   background:  
+    linear-gradient(
+      rgba(241, 244, 245, 0.80), 
+      rgba(93, 123, 128, 0.80)
+    ),
+   url("images/background.png");
+}
+
 .contactHeader {
     font-size: 110px;
     color: rgb(150, 236, 236);
@@ -616,6 +625,22 @@
     -webkit-text-stroke-color: rgb(130, 104, 163);
     margin-top: 32px;
 }
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .contactImg {
+      height: 350px;
+  }
 
 /* Footer Styling */
 .footer {
