@@ -642,12 +642,12 @@
       height: 300px;
   }
 
-  .main_content {
+  .contactImg{
       flex:1;
       padding-left: 40px;
   }
 
-  .sidebar {
+  .contactInfo {
     flex:2;
     padding-left: 180px;
 }
@@ -802,13 +802,14 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     background-size: 100%;
     cursor: pointer;
     -webkit-box-shadow: 0 0 5px #000;
-          box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
     padding-bottom: 100px;
+    
     }
 
     .project_card {
         box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-        border: 20px white;
+        
 
     }
     .overlay {
