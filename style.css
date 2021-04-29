@@ -727,76 +727,13 @@
     font-weight: 700;
 }
 
-/* Contact section styling */
-.contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150vh;
-}
 
-.contact_container {
-    width: 800px;
-    background-color: rgb(48, 94, 91, .70);
 
-}
 
-.fcf-form-group {
-    margin-bottom: 1.5em;
-    padding: 10px;
 
-}
 
-.fcf-label {
-    font-size: .75em;
-    color:rgb(7, 38, 88);
-    display: block;
-    opacity: 1;
-}
 
-.fcf-form-control {
-    box-shadow: none;
-    border-radius: 0;
-    border-color: white;
-    border-style: none none solid none;
-    width: 100%;
-    font-size: 1.25em;
-    padding: 5px;
-}
 
-.form-control:focus {
-    box-shadow: none;
-    border-color: rgb(25, 228, 228);
-    outline: none;
-}
-
-.fcf-btn {
-    background:rgb(9, 9, 126);
-    border: 1px solid darkcyan;
-    border-radius: 3px;
-    color: black;
-    font-size: 1em;
-    padding: 10px 50px;
-    text-transform: uppercase;
-}
-
-.fcf-btn:hover {
-    color:rgb(25, 228, 228);
-    cursor: pointer;
-    border-color: white;
-}
-
-textarea {
-    resize: none;
-}
-
-placeholder {
-    color:rgb(102, 12, 12);
-}
-
-input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
-    width: 100%;
-}
 
 .columns {
         display: grid;
