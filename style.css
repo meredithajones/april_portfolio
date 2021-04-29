@@ -622,6 +622,7 @@
     ),
    url("images/background.png");
    padding-bottom: 100px;
+   padding-top: 150px;
    font-family: 'Staatliches';
    text-transform: uppercase;
    
@@ -632,9 +633,10 @@
     color: rgb(150, 236, 236);
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(130, 104, 163);
+    -webkit-text-stroke-color: midnightblue;
     margin-top: 32px;
     font-family: 'Shrikhand', cursive;
+    padding-bottom: 50px;
 }
 
 
@@ -655,24 +657,30 @@
 
   .contactImg{
       flex:1;
-      padding-left: 40px;
+      padding-left: 30px;
   }
 
   .contactInfo {
     font-family: 'Staatliches';
     flex:2;
-    margin-left: 180px;
-    line-height: 30px;
-    padding:30px;
+    margin-left: 20px;
+    margin-right: 30px;
+    line-height: 40px;
+    padding:50px;
     border-style:solid;
     font-size: 20px;
-    background-color: rgb(53, 170, 164, .70);
+    background-color: rgba(85, 213, 232, 0.50);
+    border-radius: 10px;
     
 }
 
 .contactLink {
     text-decoration: none;
     color: midnightblue;
+}
+
+.contactLink:hover {
+    color: seashell;
 }
 /* Footer Styling */
 .footer {
