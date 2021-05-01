@@ -1,0 +1,117 @@
+/* Project Card Styling */
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));;
+    gap: 10px;
+    grid-auto-rows: auto;
+    flex-direction: row;
+  }
+
+
+.cardWrapper {
+margin: 10 auto;
+max-width: 600px;
+justify-content: center;
+flex-direction: row;
+padding-bottom: 100px;
+}
+
+
+.project_container {
+width: 400px;
+height: 475px;
+gap: 10px;
+z-index:700;
+padding: 10px 10px 10px 10px;
+top:0; right: 0; left: 0; bottom: 0;
+margin: auto;
+resize: horizontal;
+overflow: none;
+background: url("/images/FFA.png");
+background-color: black;
+background-size: 100%;
+cursor: pointer;
+-webkit-box-shadow: 0 0 5px #000;
+box-shadow: 0 0 5px #000;
+padding-bottom: 100px;
+
+}
+
+.project_card {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    
+
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    height: 465px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 2fr 1fr;
+    background: rgba(46, 45, 54, 0.9);
+    color: rgb(243, 237, 237);
+    opacity: 0;
+    transition: all 0.5s;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .project_description {
+    padding-top: 40px;
+    padding-left: 20px;
+    letter-spacing: 3px;
+  }
+
+  .project_header {
+      font-size: 30px;
+      line-height: 20px;
+      padding-bottom: 20px;
+      margin-top: 2px;
+
+      transform: translateY(40px);
+      transition: all 0.7s;
+  }
+
+  .desc_1 {
+        color: lighten(rgb(77, 77, 77),40%);
+        font-size: 25px;
+  }
+
+  .project_container:hover .overlay {
+    opacity: 1;
+  }
+
+  .project_links {
+      align-items: center;
+      text-transform: uppercase;
+
+  }
+
+  #fa-icon {
+      font-size: 20px;
+  }
+
+  .btn {
+      width: 150px;
+      height: 40px;
+      background: rgb(2, 2, 83, .80);
+      border-radius: 10px;
+      color: white;
+    
+  }
+
+  .btn:hover {
+    color:rgb(25, 228, 228);
+    cursor: pointer;
+    border-color: white;
+}
+
+#projectPage {
+    align-items: center;
+    margin: 10px 10px 60px;
+    color: white;
+}
+
+#projectPage:hover {
+    color: rgb(9, 196, 202);
+}
