@@ -56,4 +56,32 @@ function onCardClick(card, i) {
     // add the open class to the page content
     openContent.className += ' open';
   }
+
+  /*
+* This effect is created by taking a separate 'cover' div, placing
+* it in the same position as the clicked card, and animating it to
+* become the background of the opened 'page'.
+* It looks like the card itself is animating in to the background,
+* but doing it this way is more performant (because the cover div is
+* absolutely positioned and has no children), and there's just less
+* having to deal with z-index and other elements in the card
+*/
+function animateCoverUp(card) {
+    // get the position of the clicked card
+    var cardPosition = card.getBoundingClientRect();
+    // get the style of the clicked card
+    var cardStyle = getComputedStyle(card);
+    setCoverPosition(cardPosition);
+    setCoverColor(cardStyle);
+    scaleCoverToFillWindow(cardPosition);
+    // update the content of the opened page
+    openContentText.innerHTML = '<h1>'+card.children[2].textContent+'</h1>'+paragraphText;
+    openContentImage.src = card.children[1].src;
+    setTimeout(function() {
+      // update the scroll position to 0 (so it is at the top of the 'opened' page)
+      window.scroll(0, 0);
+      // set page to open
+      pageIsOpen = true;
+    }, 300);
+  }
   

@@ -65,6 +65,7 @@ This is my most current portfolio. I decided to build it without the help of boo
 * [Stack Overflow general research](https://stackoverflow.com/) 
 * [Mdn web docs general research](https://developer.mozilla.org/en-US/)
 * [Mdn web docs general research](https://developer.mozilla.org/
+* [Rachel Smith Codepen for card design and function] (https://codepen.io/rachsmith/pen/PWxoLN)
 
 ## Author
  Meredith Jones
