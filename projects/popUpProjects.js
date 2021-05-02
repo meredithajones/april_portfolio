@@ -106,3 +106,17 @@ function animateCoverBack(card) {
    currentCard.className = currentCard.className.replace(' clicked', '');
 }, 301);
 }
+
+function setCoverPosition(cardPosition) {
+    // style the cover so it is in exactly the same position as the card
+    cover.style.left = cardPosition.left + 'px';
+    cover.style.top = cardPosition.top + 'px';
+    cover.style.width = cardPosition.width + 'px';
+    cover.style.height = cardPosition.height + 'px';
+  }
+
+  function setCoverColor(cardStyle) {
+    // style the cover to be the same color as the card
+    cover.style.backgroundColor = cardStyle.backgroundColor;
+  }
+  
