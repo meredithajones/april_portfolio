@@ -1,9 +1,7 @@
-/* 
-** Layout, Text & Colors 
-*/
+/* Project cards styling */
 
 body {
-    background: #150f21;
+    background: rgb(2, 2, 71);
     font-size: 18px;
   }
   
@@ -34,7 +32,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    background: #EB5160;
+    background: #f3eeef;
     color: #fff;
     cursor: pointer;
     margin-bottom: 60px;
@@ -53,7 +51,7 @@ body {
   
   .card h1 {
     position: relative;
-    padding: 190px 0px 100px 10px;
+    padding: 200px 20px 100px 10px;
     width: 90%;
   }
   
@@ -65,11 +63,11 @@ body {
   }
   
   .card-color-0 {
-    background-color: #EB5160;
+    background-color: #61d4cb;
   }
   
   .card-color-1 {
-    background-color: #8F3985;
+    background-color: #2c636b;
   }
   
   .card-color-2 {
