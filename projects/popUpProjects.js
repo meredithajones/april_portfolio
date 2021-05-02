@@ -83,5 +83,26 @@ function animateCoverUp(card) {
       // set page to open
       pageIsOpen = true;
     }, 300);
-  }
-  
+}
+
+//Re-setting card position
+function animateCoverBack(card) {
+  var cardPosition = card.getBoundingClientRect();
+  // the original card may be in a different position, because of scrolling, so the cover position 
+  //needs to be reset before scaling back down
+  setCoverPosition(cardPosition);
+  scaleCoverToFillWindow(cardPosition);
+  // animate scale back to the card size and position
+  cover.style.transform = 'scaleX('+1+') scaleY('+1+') translate3d('+(0)+'px, '+(0)+'px, 0px)';
+  setTimeout(function() {
+    // set content back to empty
+    openContentText.innerHTML = '';
+    openContentImage.src = '';
+    // style the cover to 0x0 so it is hidden
+    cover.style.width = '0px';
+    cover.style.height = '0px';
+    pageIsOpen = false;
+   // remove the clicked class so the card animates back in
+   currentCard.className = currentCard.className.replace(' clicked', '');
+}, 301);
+}
