@@ -119,4 +119,15 @@ function setCoverPosition(cardPosition) {
     // style the cover to be the same color as the card
     cover.style.backgroundColor = cardStyle.backgroundColor;
   }
+
+  function scaleCoverToFillWindow(cardPosition) {
+    // calculate the scale and position for the card to fill the page,
+    var scaleX = windowWidth / cardPosition.width;
+    var scaleY = windowHeight / cardPosition.height;
+    var offsetX = (windowWidth / 2 - cardPosition.width / 2 - cardPosition.left) / scaleX;
+    var offsetY = (windowHeight / 2 - cardPosition.height / 2 - cardPosition.top) / scaleY;
+    // set the transform on the cover - it will animate because of the transition set on it in the CSS
+    cover.style.transform = 'scaleX('+scaleX+') scaleY('+scaleY+') translate3d('+(offsetX)+'px, '+(offsetY)+'px, 0px)';
+  }
+  
   
