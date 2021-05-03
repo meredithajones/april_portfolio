@@ -186,20 +186,21 @@
   border: 15px;
   padding: 20px;
   border-radius: 15px 50px;
-    border-style: solid;
-    background-color: rgba(106, 179, 188, 0.75);
+  border-style: solid;
+  background-color: rgba(106, 179, 188, 0.75);
   
 }
 
 .column_right h4 {
   font-size: 24px;
-  color: rgba(35, 81, 87);
+  color: midnightblue;
   line-height: 2.3;
   border: 0px;
   padding: 20px;
   border-radius: 50px 50px;
   border-style: solid;
   background-color: rgba(216, 241, 240, 0.75);
+  text-align: center;
 }
 
 .column_right {
@@ -211,11 +212,12 @@
 
 .headline {
     color: midnightblue;
-    background-color: rgba(192, 222, 228, 0.7);
+    background-color: rgba(216, 241, 240, 0.75);
     font-size:50px;
-    border-radius: 80%;
+    border-radius: 30px;
     align-items: center;
     border-width: 20px;
+    padding: 15px;
 
 }
 
@@ -231,6 +233,7 @@
   display: inline-block;
   font-size: 20px;
   border-radius: 20px;
+  margin-top: 20px;
 
 }
 
