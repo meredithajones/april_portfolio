@@ -729,10 +729,26 @@
 
     .topBtn {
         float: right;
+        margin-top: 20px;
         margin-bottom: 15px;
         margin-right: 20px;
         font-size: 40px;
     }
+    
+    /* Styling "Back to Top to appear on hover only */
+    
+    .hide {
+        display: none;
+      }
+      
+      .topBtn:hover + .hide {
+        display: block;
+        color: rgb(17, 3, 78);
+        float: right;
+        margin-right: 0;
+        margin-bottom: 15px;
+        font-size: 20px;
+      }
 
 
 
