@@ -126,8 +126,31 @@ function setCoverPosition(cardPosition) {
     var scaleY = windowHeight / cardPosition.height;
     var offsetX = (windowWidth / 2 - cardPosition.width / 2 - cardPosition.left) / scaleX;
     var offsetY = (windowHeight / 2 - cardPosition.height / 2 - cardPosition.top) / scaleY;
-    // set the transform on the cover - it will animate because of the transition set on it in the CSS
-    cover.style.transform = 'scaleX('+scaleX+') scaleY('+scaleY+') translate3d('+(offsetX)+'px, '+(offsetY)+'px, 0px)';
+    // set the transform on the cover - it will animate because of the transition 
+    //set on it in the CSS
+    cover.style.transform = 
+    'scaleX('+scaleX+') scaleY('+scaleY+') translate3d('+(offsetX)+'px, '+(offsetY)+'px, 0px)';
   }
   
+/* When the close is clicked */
+function onCloseClick() {
+    // remove the open class so the page content animates out
+    openContent.className = openContent.className.replace(' open', '');
+    // animate the cover back to the original position card and size
+    animateCoverBack(currentCard);
+    // animate in other cards
+    animateOtherCards(currentCard, false);
+  }
+  
+  function animateOtherCards(card, out) {
+    var delay = 100;
+    for (var i = 0; i < nCards; i++) {
+      // animate cards on a stagger, 1 each 100ms
+      if (cards[i] === card) continue;
+      if (out) animateOutCard(cards[i], delay);
+      else animateInCard(cards[i], delay);
+      delay += 100;
+    }
+  }
+
   
