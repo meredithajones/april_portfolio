@@ -4,3 +4,15 @@
     margin-top: 0;
     margin-right: 2px;
 }
+
+.projectContainer {
+    /* padding: 100px 100px 100px 100px; */
+    border-style: solid;
+    border-color: rgb(5, 5, 56);
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 70px;
+}

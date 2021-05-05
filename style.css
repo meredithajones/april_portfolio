@@ -657,13 +657,13 @@
     }
   }
 
-  .contactImg {
-      height: 300px;
-  }
 
   .contactImg{
       flex:1;
-      padding-left: 30px;
+      padding-left: 20px;
+      border-radius: 20%;
+      opacity: 0.85;
+      height: 350px;
   }
 
   .contactInfo {
