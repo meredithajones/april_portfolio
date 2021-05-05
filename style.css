@@ -844,7 +844,6 @@
           padding-bottom: 20px;
           margin-top: 2px;
           font-family: 'DM Serif Text', serif;
-
           transform: translateY(40px);
           transition: all 0.7s;
       }
@@ -862,20 +861,28 @@
       .project_links {
           align-items: center;
           text-transform: uppercase;
+          color: white;
 
+      }
+
+      #externalLink {
+          color: white;
+          text-decoration: none;
       }
 
       #fa-icon {
           font-size: 20px;
+          
       }
 
       .btn {
-          width: 150px;
+          width: 155px;
           height: 40px;
           background: rgba(1, 1, 2, 0.2);
           border-radius: 10px;
           color: white;
           display: inline-block;
+          vertical-align: bottom;
         
       }
 
