@@ -479,17 +479,17 @@
     font-family: 'Shrikhand', cursive;
 }
 
-.portfolio_right h2 {
+.portfolio_main h2 {
     margin-bottom: 20px;
     font-size: 30px;
     margin-right: 50px;
 }
 
-.portfolio_right p {
-    margin-bottom: 20px;
-    line-height: 2.5;
+.portfolio_main p {
+    line-height: 1.5;
     margin-right: 50px;
-    padding: 40px;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .portfolio_right a {
@@ -801,6 +801,10 @@
     border-style: solid;
     border-width: 10px;
     
+    }
+
+    #projectP {
+        font-size: 16px;
     }
 
     .project_card {
