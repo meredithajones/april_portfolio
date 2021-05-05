@@ -412,6 +412,7 @@
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 16px;
+    margin-right: 120px;
 }
 
 .projects_description p {
@@ -465,7 +466,7 @@
 .portfolio_container {
     padding-top: 50px;
     padding-bottom: 100px;
-    padding-left:10px;
+    padding-left:50px;
 }
     
 .portfolio_container h1 {
@@ -481,11 +482,14 @@
 .portfolio_right h2 {
     margin-bottom: 20px;
     font-size: 30px;
+    margin-right: 50px;
 }
 
 .portfolio_right p {
     margin-bottom: 20px;
     line-height: 2.5;
+    margin-right: 50px;
+    padding: 40px;
 }
 
 .portfolio_right a {
@@ -637,7 +641,6 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: midnightblue;
-    margin-top: 32px;
     font-family: 'Shrikhand', cursive;
     padding-bottom: 50px;
 }
@@ -778,8 +781,8 @@
 
 
 .project_container {
-    width: 400px;
-    height: 475px;
+    width: 350px;
+    height: 425px;
     gap: 10px;
     z-index:700;
     padding: 10px 10px 10px 10px;
@@ -794,6 +797,9 @@
     -webkit-box-shadow: 0 0 5px #000;
     box-shadow: 0 0 5px #000;
     padding-bottom: 100px;
+    border: cornsilk;
+    border-style: solid;
+    border-width: 10px;
     
     }
 
@@ -869,6 +875,9 @@
         align-items: center;
         margin: 10px 10px 60px;
         color: white;
+        align-items: center;
+        justify-content: center;  
+
     }
 
     #projectPage:hover {
