@@ -872,9 +872,10 @@
       .btn {
           width: 150px;
           height: 40px;
-          background: rgb(2, 2, 83, .80);
+          background: rgba(1, 1, 2, 0.2);
           border-radius: 10px;
           color: white;
+          display: inline-block;
         
       }
 
@@ -887,13 +888,14 @@
     #projectPage {
         color: white;
         padding: 50px;
-        margin-bottom: 30px;
+        padding-bottom: 30px !important;
         font-size:16px;
+        text-decoration: none;
 
     }
 
     #projectPage:hover {
-        color: rgb(9, 196, 202);
+        color: rgb(78, 106, 113);
     }
 
     /* Skills Section Styling*/
