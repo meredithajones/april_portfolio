@@ -33,5 +33,12 @@ h2 {
     text-align: right;
     float: right;
     margin-top: 100px;
-    margin-right: 170px;
+    margin-right: 175px;
+}
+
+.ffaGif {
+    height:auto;
+    max-width:100%;
+    border:none;
+    display:block;
 }
