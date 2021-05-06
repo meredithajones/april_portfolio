@@ -11,8 +11,27 @@
     border-color: rgb(5, 5, 56);
     max-width: 1200px;
     margin: auto;
+    box-shadow: 10px 10px 8px 10px #888888;
+    padding: 20px;
 }
 
 h1 {
     font-size: 70px;
+    color: darkcyan;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #191970;
+    font-family: 'Shrikhand', cursive;
+    padding-bottom: 2px;
+    text-align: left;
+    float: left;
+}
+
+h2 {
+    font-size: 40px;
+    color: #191970;
+    text-align: right;
+    float: right;
+    margin-top: 100px;
+    margin-right: 170px;
 }
