@@ -33,7 +33,7 @@ h2 {
     color: #191970;
     text-align: right;
     float: right;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-right: 175px;
 }
 
@@ -48,4 +48,15 @@ h2 {
 
 .projectDescription {
     float:right;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }
