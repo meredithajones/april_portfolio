@@ -34,7 +34,7 @@ h2 {
     text-align: right;
     float: right;
     margin-top: 70px;
-    margin-right: 175px;
+    margin-right: 165px;
 }
 
 .ffaGif {
@@ -42,12 +42,21 @@ h2 {
     max-width:100%;
     border:solid;
     border-width: 15px;
-    border-color: whitesmoke;
-    /* display:block; */
+    border-color:  #191970;
 }
 
-.projectDescription {
+.projectDescHeader {
     float:right;
+    margin-right: 90px;
+    font-size: 20px;
+    color: #191970;
+ 
+}
+
+.aboutProject {
+    float:right;
+    margin-right: 90px;
+
 }
 
 .flex-container {
