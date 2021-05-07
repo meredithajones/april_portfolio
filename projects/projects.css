@@ -13,6 +13,7 @@
     margin: auto;
     box-shadow: 10px 10px 8px 10px #888888;
     padding: 20px;
+    background-color: rgb(116, 175, 175);
 }
 
 h1 {
@@ -39,6 +40,12 @@ h2 {
 .ffaGif {
     height:auto;
     max-width:100%;
-    border:none;
-    display:block;
+    border:solid;
+    border-width: 15px;
+    border-color: whitesmoke;
+    /* display:block; */
+}
+
+.projectDescription {
+    float:right;
 }
