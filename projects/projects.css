@@ -43,6 +43,7 @@ h2 {
     border:solid;
     border-width: 15px;
     border-color:  #191970;
+    flex: 60%;
 }
 
 .projectDescHeader {
@@ -54,14 +55,13 @@ h2 {
 }
 
 .aboutProject {
-    float:right;
-    margin-right: 90px;
+    flex:40%;
 
 }
 
 .flex-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 800px) {
