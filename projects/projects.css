@@ -35,17 +35,17 @@ h1 {
     -webkit-text-stroke-color: #191970;
     font-family: 'Shrikhand', cursive;
     padding-bottom: 2px;
-    /* text-align: left;
-    float: left; */
+    display: flex;
 }
 
 h2 {
     font-size: 40px;
     color: #191970;
-    text-align: right;
-    float: right;
-    margin-top: 70px;
-    margin-right: 165px;
+    /* text-align: right;
+    float: right; */
+    /* margin-top: 70px;
+    margin-right: 165px; */
+    display: flex;
 }
 
 .projectDetails {
