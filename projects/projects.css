@@ -8,6 +8,7 @@
     font-size: 30px;
     margin-top: 0;
     margin-right: 2px;
+    display: flex;
 }
 
 .projectContainer {
@@ -89,4 +90,38 @@ h2 {
   .flex-container {
     flex-direction: column;
   }
+}
+
+.project_links {
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+#externalLink {
+    color: white;
+    text-decoration: none;
+}
+
+#fa-icon {
+    font-size: 20px;
+    
+}
+
+.btn {
+    width: 155px;
+    height: 40px;
+    background: rgba(1, 1, 2, 0.2);
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    vertical-align: bottom;
+  
+}
+
+.btn:hover {
+  color:rgb(25, 228, 228);
+  cursor: pointer;
+  border-color: white;
 }

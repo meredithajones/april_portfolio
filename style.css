@@ -97,8 +97,6 @@
 
     }
 
-    
-
     .navbar_toggle .bar {
         width: 28px;
         height:3px;
@@ -593,11 +591,12 @@
 
 
   .contactImg{
-      flex:1;
       padding-left: 20px;
       border-radius: 20%;
       opacity: 0.85;
-      height: 350px;
+      max-height: 350px;
+      display: flex;
+      justify-content: center;
   }
 
   .contactInfo {
