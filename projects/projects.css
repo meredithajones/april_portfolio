@@ -21,7 +21,7 @@
 
 .projectHeader {
     display: flex;
-    justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -34,6 +34,7 @@
     margin-top: 85px;
     font-size: 40px;
     color: #191970;
+    margin-left: 20px;
 }
 
 h1 {
@@ -43,12 +44,10 @@ h1 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #191970;
     font-family: 'Shrikhand', cursive;
+    margin-bottom: 2px;
+    
 }
 
-h2 {
-    font-size: 40px;
-    color: #191970;
-}
 
 @media (max-width: 700px) {
     .flex-container {
@@ -58,9 +57,8 @@ h2 {
 
 .projectDetails {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
+    flex-wrap:wrap;
 }
 
 .ffaGif {
@@ -69,33 +67,24 @@ h2 {
     border:solid;
     border-width: 15px;
     border-color:  #191970;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    border-radius: 10px;
+    flex: 1;
+    padding: 5px;
 }
 
 .projectDescHeader {
-    float:right;
-    margin-right: 90px;
     font-size: 20px;
     color: #191970;
+    flex: 1;
+    padding: 20px;
  
 }
-
-.aboutProject {
-
-}
-
-.flex-container {
-    display: flex;
-}
-
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .flex-container {
     flex-direction: column;
   }
 }
+
 /* Styling links to github and Linkedin */
 .project_links {
     align-items: center;
