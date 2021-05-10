@@ -20,6 +20,7 @@
     box-shadow: 10px 10px 8px 10px #888888;
     padding: 20px;
     background-color: rgb(116, 175, 175);
+    display: flex;
 
 }
 
@@ -47,13 +48,14 @@ h2 {
     /* margin-top: 70px;
     margin-right: 165px; */
     display: flex;
+    align-items: flex-start;
 }
 
 .projectDetails {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .ffaGif {
@@ -77,13 +79,11 @@ h2 {
 }
 
 .aboutProject {
-    flex:1;
 
 }
 
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
 }
 
 @media (max-width: 800px) {
@@ -91,7 +91,7 @@ h2 {
     flex-direction: column;
   }
 }
-
+/* Styling links to github and Linkedin */
 .project_links {
     align-items: center;
     text-transform: uppercase;
