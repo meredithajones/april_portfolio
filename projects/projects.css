@@ -1,18 +1,14 @@
-/* body {
-    display: flex;
-    flex-direction: column;
-  } */
-
+   
 #closePage {
     float: right;
     font-size: 30px;
     margin-top: 0;
     margin-right: 2px;
     display: flex;
+    flex:5%;
 }
 
 .projectContainer {
-    /* padding: 100px 100px 100px 100px; */
     border-style: solid;
     border-color: rgb(5, 5, 56);
     max-width: 1200px;
@@ -20,13 +16,24 @@
     box-shadow: 10px 10px 8px 10px #888888;
     padding: 20px;
     background-color: rgb(116, 175, 175);
-    display: flex;
 
 }
 
 .projectHeader {
-    /* flex: 100%; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+.title {
+    flex:60%
+}
+
+.subtitle {
+    flex:45%;
+    margin-top: 85px;
+    font-size: 40px;
+    color: #191970;
 }
 
 h1 {
@@ -36,19 +43,17 @@ h1 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #191970;
     font-family: 'Shrikhand', cursive;
-    padding-bottom: 2px;
-    display: flex;
 }
 
 h2 {
     font-size: 40px;
     color: #191970;
-    /* text-align: right;
-    float: right; */
-    /* margin-top: 70px;
-    margin-right: 165px; */
-    display: flex;
-    align-items: flex-start;
+}
+
+@media (max-width: 700px) {
+    .flex-container {
+      flex-direction: column;
+    }
 }
 
 .projectDetails {
@@ -86,7 +91,7 @@ h2 {
     display: flex;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .flex-container {
     flex-direction: column;
   }
@@ -125,3 +130,4 @@ h2 {
   cursor: pointer;
   border-color: white;
 }
+
