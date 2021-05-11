@@ -60,15 +60,16 @@ h1 {
 }
 
 .projectDetails {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-start; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px;
+    margin-bottom: 5px;
 
 }
 
 .ffaGif {
     height:auto;
-    max-width:100%;
+    max-width:94%;
     border:solid;
     border-width: 15px;
     border-color:  #191970;
