@@ -124,8 +124,22 @@ p {
 
 /* Styling links to github and Linkedin */
 
+#footer {
+    background: rgb(241, 237, 237, .80);
+    width: 50%;
+    padding: 10px;
+    display: flex; 
+    justify-content: right;
+    vertical-align: bottom;
+    border-radius: 10px;
+}
+
 .socialLinks{
-    justify-items: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly; 
+    vertical-align: bottom;
+
 }
 
 
@@ -139,6 +153,9 @@ p {
 #externalLink {
     color: blue;
     text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
 }
 
 #externalLink:hover {
@@ -151,7 +168,7 @@ p {
     
 }
 
-.btn {
+.btnGit {
     width: 155px;
     height: 40px;
     background: rgba(1, 1, 2, 0.2);
@@ -159,6 +176,24 @@ p {
     color: white;
     display: inline-block;
     vertical-align: bottom;
+    margin: 4px 4px;
+    border-radius: 50%;
+    
+
+  
+}
+
+.btnLinked {
+    width: 155px;
+    height: 40px;
+    background: rgba(1, 1, 2, 0.2);
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 4px 4px;
+    border-radius: 50%;
+   
   
 }
 
@@ -173,3 +208,30 @@ p {
     }
   }
 
+/* SideButton Styling */
+
+.sidebtn {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 150px;
+    right: 60px;
+    width: 60px;
+    border-radius: 20px;
+    background:	rgb(241, 235, 235);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    color: darkcyan;
+    font-size: 14px;
+    z-index: 0;
+}
+
+.sidebtn a, a:focus, a:active {
+      text-decoration: none; 
+      color: inherit;
+      margin: 0 auto;
+}
+
+.sidebtn a:hover {
+    color: rgb(116, 102, 52);
+    opacity: 1;
+}
