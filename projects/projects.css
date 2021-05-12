@@ -123,17 +123,28 @@ p {
 }
 
 /* Styling links to github and Linkedin */
+
+.socialLinks{
+    justify-items: center;
+}
+
+
 .project_links {
     align-items: center;
     text-transform: uppercase;
     color: white;
-
 }
+
 
 #externalLink {
     color: blue;
     text-decoration: none;
 }
+
+#externalLink:hover {
+    color:rgb(25, 228, 228);
+    cursor: pointer;
+  }
 
 #fa-icon {
     font-size: 20px;
