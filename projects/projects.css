@@ -35,7 +35,7 @@
 
 .subtitle {
     flex:40%;
-    margin-top: 85px;
+    margin-top: 70px;
     font-size: 40px;
     color: #191970;
     margin-left: 20px;
@@ -54,7 +54,7 @@ h1 {
 
 @media (max-width: 900px) {
     .main_section {
-      padding: 30px;
+      padding: 5px;
       flex-direction: column;
     }
 
@@ -66,21 +66,16 @@ h1 {
 .projectDetails {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px;
+    grid-template-rows: 350px;
     margin-bottom: 5px;
 
 }
 
-.projectDesc {
-    display: flex;
-    justify-content: center;
-    display: block;
-}
-
 .ffaGif {
+    margin-top: 40px;
     height: auto;
-    max-width:94%;
-    border:solid;
+    max-width: 94%;
+    border: solid;
     border-width: 10px;
     border-color:  #191970;
     border-radius: 10px;
@@ -94,12 +89,12 @@ h1 {
 @media (max-width: 800px) {
     .main_section {
       flex-direction: column;
-      padding: 30px;
+      padding: 10px;
     }
 
     .projectDetails {
         grid-template-columns: 1fr;
-        padding: 30px;
+        padding: 10px;
     }
 
     #ffaGif {
@@ -111,7 +106,7 @@ h1 {
 .descriptionHeader {
     font-size: 27px;
     color: #191970;
-    padding: 20px;
+    padding: 5px;
 }
 
 
