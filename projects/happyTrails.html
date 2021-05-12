@@ -2,11 +2,102 @@
 <html lang="en">
 <head>
     <title>Happy Trails</title>
- <script src="https://use.fontawesome.com/e341d69b03.js"></script>
+    <!-- Linking FontAwesome -->
+    <script src="https://use.fontawesome.com/e341d69b03.js"></script>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="/projects/projects.css" />
+    <!-- Linking Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=DM+Serif+Text&family=Days+One&family=Shrikhand&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Linking FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/9ca2398afe.js"
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
-    <i class="fa fa-times-circle"></i><i class="fa fa-times-circle"></i>
+    <main class="main_section">
+      <section class="projectContainer">
+        <a href="/index.html#portfolio"><i id="closePage" class="fa fa-times-circle"></i></a>
+        <header class="projectHeader">
+            <div>
     <h1>This is all about Happy Trails!!!!!</h1>
+    <div><p class="subtitle">A hiker's companion app</p></div></header>
+    <section class="projectDetails">
+        <div class="projectDescHeader">
+          <h3 class="descriptionHeader">
+            <i class="fas fa-grip-lines"></i>About The Project<i class="fas fa-grip-lines"></i>
+          </h3>
+      <div class="projectDesc">
+          <p class="aboutProject">
+            Fridge for all was created to help manage the inventory of
+            Philadelphia's community fridges. Over the course of the pandemic,
+            roughly 25 community fridges and free food pantries have sprung up
+            to help address food insecurity in the city.
+            My group of collaborators and I created this project as a prototype 
+            to help manange the inventory of each community fridge. 
+            The application allows each user to create an account, and on the main page,
+            to add and subtract quantities from existing fridge inventory, as well 
+            as to input entierly new items into the inventory along with a count of how 
+            many they are putting in. 
+          </p>
+      </div>
+  </div>
     <img src = "gifs/happyTrails.gif">
+    <div class="myRole">
+        <h3 class="descriptionHeader">
+            <i class="fas fa-grip-lines"></i>My Role<i
+              class="fas fa-grip-lines"></i>
+            </h3>
+            <p>I took on the back end work for this project. 
+                I created all of the routes for both the front and back end,
+                and conducted vigorous testing with postman to make sure that they
+                were functioning properly.
+                We began with an initial list of food inventory in the 
+                fridge for demonstation purposes by creating a json file 
+                to populate initial heavily used items for the fridge inventory.
+                <br>
+                I set up our database through MongoDB, and created the code for new items 
+                to be added, exiting items to be incremented up or down in quantity, and to be
+                deleted from the database. 
+                <br>
+                I was in charge of the javascript at both the front and back ends 
+                to create this functionality in the app. 
+                <br>
+                My partner Luke handled user sign in authentication, as well as 
+                setting up the Mapquest API. 
+                <br>
+                Kara Schmidt designed the logo and was in charge of the color scheme, 
+                and all aspects of the front end 
+                design and planning the elements of the user experience. 
+            </p>
+        </div>
+        <div class="tech">
+            <h3 class="descriptionHeader">
+                <i class="fas fa-grip-lines"></i>Technology Used<i
+                  class="fas fa-grip-lines"></i>
+                </h3>
+                <p> The application was built using React as the framework. 
+                    User account authetication was created by using a JSON Web Token, 
+                    as well as BCrypt. 
+                    In creating the functionality for inventory tracking, I utilized MongoDB for the database, 
+                    Postman for testing, Axios to send asychronous GET and POST Requests, and 
+                    Heroku for hosting the application. 
+                    Our styling and structure were created with the help of React-Bootstrap and Font Awesome Icons.
+                </p>
+            </div>
+        <div class="btnWrapper">
+            <button class= "sidebtn" > 
+                   <a id="externalLink" href ="https://github.com/meredithajones/Fridge_For_All" target="_blank"><i class="fa fa-github fa-2x"
+                    aria-hidden="true" aria-label="Meredith Jones Github"></i></span></a>
+                <a id="externalLink" href = "https://fridge-for-all-philly.herokuapp.com/" target="_blank"><i class="fa fa-external-link" id="fa-icon"></i></a>
+            </div>
+    </section>
+  </section>
+</main>
 </body>
 </html>
+   
+           
