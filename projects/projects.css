@@ -4,8 +4,6 @@
     font-size: 30px;
     margin-top: 2px;
     z-index: 9999;
-    /* position: absolute;
-    overflow: hidden; */
 }
 
 .projectContainer {
@@ -18,7 +16,7 @@
     margin: auto;
     box-shadow: 10px 10px 8px 10px #888888;
     padding: 20px;
-    background-color: rgb(116, 175, 175);
+    background-color: rgb(142, 210, 210);
 
 }
 
@@ -150,7 +148,7 @@ p {
 
 
 #externalLink {
-    color: blue;
+    color: rgb(193, 226, 226);
     text-decoration: none;
     text-align: center;
     display: inline-block;
@@ -190,21 +188,11 @@ p {
     right: 60px;
     width: 60px;
     border-radius: 20px;
-    background:	rgb(241, 235, 235);
+    background:	rgb(0, 57, 104);
     box-shadow:  1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    color: darkcyan;
+    color: rgb(193, 226, 226);
     font-size: 14px;
     z-index: 0;
     padding: 10px;
 }
 
-.sidebtn a, a:focus, a:active {
-      text-decoration: none; 
-      color: inherit;
-      margin: 0 auto;
-}
-
-.sidebtn a:hover {
-    color: rgb(116, 102, 52);
-    opacity: 1;
-}
