@@ -530,8 +530,6 @@
         font-size: 70px
     }
 
-
-
     .portfolio_container {
         padding-left: 0px;
     }
@@ -621,6 +619,7 @@
 .contactLink:hover {
     color: seashell;
 }
+
 /* Footer Styling */
 .footer {
     background: 
@@ -654,9 +653,8 @@
 }
 
 .footer_right {
-    /* display:flex; */
     justify-content: left;
-    /* padding: 0 100px; */
+ 
 }
 
 .footer_right a {
@@ -688,9 +686,6 @@
         margin-bottom: 15px;
         font-size: 20px;
       }
-
-
-
 
 
 /* Project Card Styling */
