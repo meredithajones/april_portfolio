@@ -156,6 +156,7 @@ p {
     text-align: center;
     display: inline-block;
     vertical-align: bottom;
+    padding: 7px;
 }
 
 #externalLink:hover {
@@ -168,34 +169,6 @@ p {
     
 }
 
-.btnGit {
-    width: 155px;
-    height: 40px;
-    background: rgba(1, 1, 2, 0.2);
-    border-radius: 10px;
-    color: white;
-    display: inline-block;
-    vertical-align: bottom;
-    margin: 4px 4px;
-    border-radius: 50%;
-    
-
-  
-}
-
-.btnLinked {
-    width: 155px;
-    height: 40px;
-    background: rgba(1, 1, 2, 0.2);
-    border-radius: 10px;
-    color: white;
-    display: inline-block;
-    vertical-align: bottom;
-    margin: 4px 4px;
-    border-radius: 50%;
-   
-  
-}
 
 .btn:hover {
   color:rgb(25, 228, 228);
@@ -219,10 +192,11 @@ p {
     width: 60px;
     border-radius: 20px;
     background:	rgb(241, 235, 235);
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    box-shadow:  1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     color: darkcyan;
     font-size: 14px;
     z-index: 0;
+    padding: 10px;
 }
 
 .sidebtn a, a:focus, a:active {
