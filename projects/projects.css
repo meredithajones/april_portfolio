@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: flex-start;
     border-style: solid;
-    border-color: rgb(5, 5, 56);
+    border-color: rgb(2, 2, 56);
     max-width: 1200px;
     margin: auto;
     box-shadow: 10px 10px 8px 10px #888888;
@@ -27,7 +27,6 @@
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
-    /* margin-top: -35px; */
 }
 
 .title {
@@ -53,10 +52,14 @@ h1 {
     
 }
 
-
-@media (max-width: 700px) {
-    .flex-container {
+@media (max-width: 900px) {
+    .main_section {
+      padding: 30px;
       flex-direction: column;
+    }
+
+    .projectContainer {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -72,13 +75,27 @@ h1 {
     height:auto;
     max-width:94%;
     display: flex;
+    justify-content: center;
     border:solid;
-    border-width: 15px;
+    border-width: 10px;
     border-color:  #191970;
     border-radius: 10px;
     padding: 5px;
     margin-bottom: 3px;
 }
+
+/* Media Queries */
+@media (max-width: 800px) {
+    .projectDetails {
+      flex-direction: column;
+      padding: 30px;
+    }
+
+    .projectDetails {
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+  }
 
 .projectDescHeader {
     font-size: 20px;
@@ -92,17 +109,13 @@ h1 {
     color: #191970;
 }
 
-.myRole{
-    /* align-items: flex-start; */
-    
-}
 
 p {
     font-size: 20px;
     color: #191970;
 }
-@media (max-width: 750px) {
-  .flex-container {
+@media (max-width: 900px) {
+    .projectContainer{
     flex-direction: column;
   }
 }
@@ -141,4 +154,9 @@ p {
   cursor: pointer;
   border-color: white;
 }
+@media (max-width: 900px) {
+    .projectContainer {
+      flex-direction: column;
+    }
+  }
 
