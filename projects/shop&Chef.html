@@ -34,6 +34,7 @@
             easily create grocery shopping lists, either by adding items 
             individually as needed, or by selecting them from recipes ingridients 
             in the Shop & Chef database. 
+            Users can save their favorite recipes to their unique login accounts. 
           </p>
       </div>
   </div>
@@ -50,6 +51,11 @@
             </h3>
             <p>My role in the project was entierly in front end programming
             and designing UX/UI elements. 
+            <br>
+            My design partner Luke and I collaborated on planning the color scheme for 
+            the application. Luke designed the logo, and I selected and placed imagery, 
+            laid out the structure of the pages, chose fonts, and connected front-end 
+            routes for API calls to the recipe database. 
             </p>
         </div>
         <div class="tech">
@@ -57,7 +63,27 @@
                 <i class="fas fa-grip-lines"></i>Technology Used<i
                   class="fas fa-grip-lines"></i>
                 </h3>
-                <p> How we built it.
+                <p> We utilized Sequelize to streamline usage with MySQL database.
+                    
+                    Express is the application that we utilized the most through node.js. The servers that we created route to the HTML data and the other to API for the data. We are running the GET, POST, PUT, & DELETE methods for the data. We render the necessary data to the front end using EJS. 
+                    
+                    We also used Passport node js middleware for user authentication. Passport Installation: npm i passport
+                    
+                    EJS View Engine
+                    We use EJS Templating Engine to render our data as HTML Markup to be viewed on the front end. Through using EJS to create templates for our pages we were able to eliminate redundant code and create more streamlined, dry code for the application.
+                    Installation npm install ejs
+                    
+                    jQuery
+                    We use jQuery to handle event listeners and AJAX calls to the backend. Our AJAX calls were responsible for our functions carrying data from user logins, sign ups, recipe retrieval and display.
+                    
+                    Axios
+                    We utilized Axios to handle all of our third party API are done with Axios to keep them hidden.
+                    
+                    AJAX
+                    We used AJAX for all of our front end API calls.
+                    
+                    CSS
+                    Our styling was created using Bootstrap for our navbar, buttons and user input fields. We used Bootswatch for our theme, and quite a bit of custom css written for placing the background image, font styling, custom color schemes and other fine tuning of the application's appearance. Included in our custom css styling is a google font to style all of the text in our application.
                 </p>
             </div>
         <div class="btnWrapper">
