@@ -22,6 +22,27 @@
 
 .projectHeader {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+
+}
+
+h1 {
+    font-size: 80px;
+    color: darkcyan;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #191970;
+    font-family: 'Shrikhand', cursive;
+    margin-top: 0; 
+    margin-block-end: 5px;
+   padding-left: 50px;
+
+}
+
+.subtitle {
+    padding-top: 20px;
+    font-size: 40px;
+    color: #191970;
+    margin-block-start: 5px;
 }

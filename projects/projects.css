@@ -17,13 +17,11 @@
     box-shadow: 10px 10px 8px 10px #888888;
     padding: 20px;
     background-color: rgb(142, 210, 210);
-
 }
 
 .projectHeader {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .title {
@@ -45,8 +43,7 @@ h1 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #191970;
     font-family: 'Shrikhand', cursive;
-    margin-bottom: 2px;
-    
+    margin-bottom: 2px;  
 }
 
 @media (max-width: 900px) {
