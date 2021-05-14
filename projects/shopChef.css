@@ -1,12 +1,27 @@
 
+#closePage {
+    float: left;
+    font-size: 30px;
+    margin-top: 2px;
+    z-index: 9999;
+}
 .projectContainer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     background: pink;
+    border-style: solid;
+    border-color: rgb(2, 2, 56);
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 10px 10px 8px 10px #888888;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .projectHeader {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
 }
