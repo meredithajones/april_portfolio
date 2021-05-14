@@ -589,7 +589,8 @@
 
 
   .contactImg{
-      padding-left: 20px;
+      margin-left: 40px;
+      margin-right: 30px;
       border-radius: 20%;
       opacity: 0.85;
       max-height: 350px;
