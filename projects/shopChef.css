@@ -1,0 +1,12 @@
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: pink;
+}
+
+.projectHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
