@@ -119,23 +119,6 @@ p {
 /* Styling links to github and Linkedin */
 
 
-
-.socialLinks{
-    display: flex; 
-    align-items: center; 
-    justify-content: space-evenly; 
-    vertical-align: bottom;
-
-}
-
-
-.project_links {
-    align-items: center;
-    text-transform: uppercase;
-    color: white;
-}
-
-
 #externalLink {
     color: rgb(193, 226, 226);
     text-decoration: none;
@@ -154,7 +137,6 @@ p {
     font-size: 20px;
     
 }
-
 
 .btn:hover {
   color:rgb(25, 228, 228);
