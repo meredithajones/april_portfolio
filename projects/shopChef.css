@@ -24,7 +24,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: flex-start;
-
 }
 
 h1 {
@@ -36,16 +35,39 @@ h1 {
     font-family: 'Shrikhand', cursive;
     margin-top: 0; 
     margin-block-end: 5px;
-   padding-left: 50px;
+    padding-left: 20px;
 
 }
 
 .subtitle {
-    padding-top: 20px;
-    font-size: 40px;
+    padding-top: 24px;
+    padding-right: 20px;
+    font-size: 38px;
     color: #191970;
-    margin-block-start: 5px;
+    display: flex;
+    align-items: flex-start;
 }
+
+@media (max-width: 800px) {
+    .projectHeader {
+      grid-template-columns: 1fr;
+      padding: 10px;
+    }
+}
+
+.projectGif {
+    display:flex;
+    justify-content: center;
+}
+
+.projectDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    
+}
+
+/* Styling side button links to Github and Deployed App */
 
 .sidebtn {
     display: flex;
@@ -78,3 +100,11 @@ h1 {
 
 #fa-icon {
     font-size: 20px;
+}
+
+@media (max-width: 800px) {
+    .main_section {
+      flex-direction: column;
+      padding: 10px;
+    }
+}
