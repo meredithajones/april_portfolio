@@ -37,7 +37,7 @@ h1 {
     font-family: 'Shrikhand', cursive;
     margin-top: 0; 
     margin-block-end: 5px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 
 }
 
@@ -48,6 +48,15 @@ h1 {
     color: #f0f0f5;
     display: flex;
     align-items: flex-start;
+}
+
+.ffaSubtitle {
+    font-size: 38px;
+    color: #f0f0f5;
+    display: flex;
+    align-items: flex-start;
+    /* float:right; */
+
 }
 
 @media (max-width: 800px) {
