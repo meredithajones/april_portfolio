@@ -33,7 +33,6 @@ h1 {
     color: darkcyan;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    /* -webkit-text-stroke-color: #191970; */
     -webkit-text-stroke-color: #d9d9e0;
     font-family: 'Shrikhand', cursive;
     margin-top: 0; 
@@ -69,6 +68,10 @@ h1 {
     font-size: 27px;
 }
 
+#leftColumn {
+    margin-left: 40px;
+}
+
 p {
     color: rgb(0, 57, 104);
     font-size: 20px;
@@ -87,6 +90,20 @@ p {
     padding: 5px;
     margin-bottom: 3px;
    
+}
+
+.leftBtn {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 150px;
+    left: 97px;
+    width: 55px;
+    border:none;
+    background:	transparent;
+    box-shadow:  1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 14px;
+
 }
 
 #projectGif {
