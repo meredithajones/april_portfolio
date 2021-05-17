@@ -294,7 +294,7 @@
 .main_content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 700px;
+    grid-template-rows: 600px;
 }
 
 .main_text{
@@ -302,7 +302,7 @@
 }
 
 .bio {
-    font-size: 18px;
+    font-size: 20px;
     margin-left:20px;
 }
 
