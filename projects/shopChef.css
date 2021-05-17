@@ -1,6 +1,6 @@
 
 #closePage {
-    float: left;
+    float: right;
     font-size: 30px;
     margin-top: 2px;
     z-index: 9999;
@@ -112,6 +112,7 @@ p {
     background:	transparent;
     box-shadow:  1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     font-size: 14px;
+    float: left;
 
 }
 
@@ -140,8 +141,9 @@ p {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 150px;
-    right: 97px;
+    top: 250px;
+    /* right: 97px; */
+    left: 45px;
     width: 55px;
     border-radius: 20px;
     background:	rgb(0, 57, 104);
@@ -149,6 +151,7 @@ p {
     font-size: 14px;
     z-index: 0;
     padding: 10px;
+    float: left;
 }
 
 @media (max-width: 800px) {
@@ -161,6 +164,7 @@ p {
         font-size: 17px;
     }
 }
+
 
 #externalLink {
     color: rgb(193, 226, 226);
