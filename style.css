@@ -262,7 +262,7 @@
   }
 
   .column_left h1 {
-    font-size: 32px;
+    font-size: 44px;
   }
 }
 
@@ -344,7 +344,7 @@
     }
 
     .main_container h1{
-        font-size: 70px;
+        font-size: 50px;
         font-family: 'Shrikhand', cursive;
     }
 }
@@ -547,6 +547,10 @@
     .portfolio_container h1 {
         font-size: 40px;
     }
+
+    .contactHeader {
+        font-size: 50px;
+    }
 }
 
 /* Contact Page Styling */
@@ -584,6 +588,10 @@
   @media (max-width: 800px) {
     .flex-container {
       flex-direction: column;
+    }
+
+    #email {
+        font-size: 10px;
     }
   }
 
