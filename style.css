@@ -90,7 +90,7 @@
         line-height: 1px;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: 99;
+        z-index: 99999;
         height: 80vh;
         font-size: 1.6rem;
         padding: 1px;
@@ -114,6 +114,7 @@
         padding: 1px;
         width: 100%;
         display: table;
+        color: whitesmoke;
       
         }
 
@@ -262,7 +263,7 @@
   }
 
   .column_left h1 {
-    font-size: 44px;
+    font-size: 50px;
   }
 }
 
@@ -344,7 +345,7 @@
     }
 
     .main_container h1{
-        font-size: 50px;
+        font-size: 55px;
         font-family: 'Shrikhand', cursive;
     }
 }
@@ -591,7 +592,11 @@
     }
 
     #email {
-        font-size: 10px;
+        font-size: 20px;
+    }
+
+    .contactHeader {
+        font-size: 64px;
     }
   }
 
