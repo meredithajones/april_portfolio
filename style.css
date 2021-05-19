@@ -82,6 +82,10 @@
         z-index: -1;
     }
 
+    .navbar {
+      background: rgb(9, 9, 126);
+    }
+
     
 /* Dropdown Nav Menu Styling */
     .navbar_menu.active {
@@ -94,6 +98,7 @@
         height: 80vh;
         font-size: 1.6rem;
         padding: 1px;
+        padding-bottom: 1480px;
 
     }
 
@@ -102,7 +107,7 @@
         height:3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: rgb(74, 19, 175);
+        background: rgb(153, 222, 235);
     }
 
     .navbar_item {
