@@ -608,17 +608,18 @@
       flex-direction: row;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 500px) {
     .flex-container {
       flex-direction: column;
     }
 
     #email {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .contactHeader {
-        font-size: 64px;
+        font-size: 67px;
+        padding-left: 20px;
     }
   }
 
@@ -658,7 +659,8 @@
 
 @media (max-width: 475px) {
     .contactImg {
-      padding: 10px;
+      padding-bottom: 10px;
+      padding-right: 17px;
       max-height: 275px;
 
     }
@@ -876,6 +878,28 @@
     #projectPage:hover {
         color: rgb(78, 106, 113);
     }
+
+    @media screen and (max-width: 400px) {
+        .project_container {
+            width: 320px;
+            margin-left: 17px;
+        }
+
+        #projectP  {
+            font-size: 12px;
+        }
+
+        #projectPage {
+            color: white;
+            padding: 50px;
+            padding-bottom: 30px !important;
+            font-size:13px;
+            text-decoration: none;
+    
+        }
+  
+ }
+
 
     /* Skills Section Styling*/
 .skills {
