@@ -127,11 +127,20 @@ p {
     
 }
 
+.tech {
+    margin-right: 30px;
+}
+
 @media (max-width: 800px) {
     .projectDetails {
       grid-template-columns: 1fr;
       padding: 5px;
       margin-right: 30px;
+    }
+
+    .tech {
+        margin-right: 0;
+        margin-left: 27px;
     }
 }
 
@@ -142,8 +151,8 @@ p {
     flex-direction: column;
     position: fixed;
     top: 250px;
-    /* right: 97px; */
-    left: 45px;
+    right: 117px;
+    /* left: 45px; */
     width: 55px;
     border-radius: 20px;
     background:	rgb(0, 57, 104);
@@ -151,7 +160,7 @@ p {
     font-size: 14px;
     z-index: 0;
     padding: 10px;
-    float: left;
+    float: right;
 }
 
 @media (max-width: 800px) {
