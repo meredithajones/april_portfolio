@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 
-@media screen
+/* @media screen
   and (min-device-width: 375px) 
   and (max-device-width: 400px)  {
     html.body {
@@ -16,7 +16,7 @@
         padding: 0px;
         overflow-x: hidden;
     }
-  }
+  } */
 
 
 
@@ -179,8 +179,7 @@
   padding: 0 60px;
   color: white;
   background: cornflowerblue;
-  background-image: url("images/background.png");
-  background-size: 1400px;
+  background-image: url("images/background.png");/* background-size: 1400px; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -373,7 +372,7 @@
 }
 
 @media screen and (max-width: 468px) {
-    .main_text h2{
+    .main_text h2 {
         font-size: 32px;
     }
 
@@ -624,7 +623,7 @@
   }
 
 
-  .contactImg{
+  .contactImg {
       margin-left: 40px;
       margin-right: 30px;
       border-radius: 20%;
@@ -764,7 +763,7 @@
     margin: auto;
     resize: horizontal;
     overflow: none;
-    background: url("/images/FFA.png");
+    background: url("images/FFA.png");
     background-color: black;
     background-size: 100%;
     cursor: pointer;
