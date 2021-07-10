@@ -100,7 +100,6 @@
     }
     
 
-    
 /* Dropdown Nav Menu Styling */
     .navbar_menu.active {
         background: rgb(9, 9, 126);
@@ -113,11 +112,10 @@
         font-size: 1.6rem;
         padding: 1px;
         padding-bottom: 1480px;
-
     }
 
     .navbar_toggle .bar {
-        width: 28px;
+        width: 27px;
         height:3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
@@ -134,8 +132,7 @@
         width: 100%;
         display: table;
         color: whitesmoke;
-      
-        }
+    }
 
     #mobile-menu {
         position: absolute;
@@ -436,8 +433,7 @@
     line-height: 2;
 }
 
-
-/* Projects Media Queries */
+ /* Projects Media Queries */
 
 @media screen and (max-width: 768px) {
     .projects_grid {
@@ -539,24 +535,7 @@
         margin-bottom: 10px;
     }
 }
-/* Portfolio Section Media Queries */
-@media screen  and (max-width: 1000px) {
-    .portfolio {
-        padding: 30px;
-    }
 
-    .portfolio_container h1 {
-        font-size: 70px
-    }
-
-    .portfolio_container {
-        padding-left: 0px;
-    }
-
-    .portfolio_right {
-        margin-bottom: 10px;
-    }
-}
 
 @media screen and (max-width: 468px) {
     .portfolio{
