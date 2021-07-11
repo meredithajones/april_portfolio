@@ -222,13 +222,17 @@
     font-size:60px;   /* border-radius: 30px; */
     align-items: center;
     justify-content: center;
-    border: solid 2px whitesmoke;
+    border: solid 4px whitesmoke;
     padding: 45px;
+}
 
+.headline p {
+    font-size: 20px;
 }
 
 .heroButton {
-  background-color: rgb(58, 169, 189, .70);
+  margin-top: 60px;
+  background-color: rgb(58, 169, 189, .85);
   border-style: solid;
   border-color: white;
   border-width: 4px;
@@ -238,8 +242,8 @@
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  border-radius: 20px;
-  margin-top: 20px;
+  border-radius: 50% 50%;
+
 
 }
 
