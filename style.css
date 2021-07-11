@@ -540,7 +540,7 @@
 
 
 @media screen and (max-width: 468px) {
-    .portfolio{
+    .portfolio {
         padding: 10px;
     }
     
@@ -559,7 +559,7 @@
    background:  
     linear-gradient(
       rgba(241, 244, 245, 0.80), 
-      rgba(93, 123, 128, 0.80)
+      rgba(71, 201, 224, 0.7)
     ),
    url("images/background.png");
    padding-bottom: 100px;
@@ -569,7 +569,7 @@
    
 }
 
-.contactHeader {
+#contactHeader {
     font-size: 110px;
     color: rgb(150, 236, 236);
     -webkit-text-fill-color: transparent;
@@ -580,25 +580,12 @@
 }
 
 
-  .flex-container {
+  .contactWrapper {
       display: flex;
       flex-direction: row;
   }
 
-  @media (max-width: 500px) {
-    .flex-container {
-      flex-direction: column;
-    }
-
-    #email {
-        font-size: 14px;
-    }
-
-    .contactHeader {
-        font-size: 67px;
-        padding-left: 20px;
-    }
-  }
+  
 
 
   .contactImg {
@@ -634,24 +621,40 @@
     color: seashell;
 }
 
-@media (max-width: 475px) {
-    .contactImg {
-      padding-bottom: 10px;
-      padding-right: 17px;
-      max-height: 275px;
+@media screen and (max-width: 960px) {
 
+    .contactWrapper {
+      display: flex;
+      flex-direction: column;
     }
-} 
+
+    #email {
+        font-size: 18px;
+    }
+
+    #contactHeader {
+        font-size: 65px;
+        padding-left: 20px;
+    }
+
+    .contactImg {
+        display: none;
+  
+      }
+  }
+
+
 
 /* Footer Styling */
 .footer {
     background: 
     linear-gradient(
-      rgba(94, 139, 153, 0.45), 
+      rgba(152, 223, 245, 0.45), 
       rgba(14, 207, 233, 0.45)
     ),
      url("images/background.png");
     color:rgba(243, 245, 245, 0.8);
+    background-size: 100%;
 
 }
 
