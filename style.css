@@ -195,27 +195,18 @@
 }
 
 .column_left h1 {
+  margin-top: -140px;
   font-size: 90px;
   color:whitesmoke;
   border: 15px;
   padding: 20px;
+  padding-left: 60px;
   border-radius: 15px 50px;
   border-style: solid;
   background-color: rgba(106, 179, 188, 0.75);
   
 }
 
-.column_right h4 {
-  font-size: 24px;
-  color: midnightblue;
-  line-height: 2.3;
-  border: 0px;
-  padding: 20px;
-  border-radius: 50px 50px;
-  border-style: solid;
-  background-color: rgba(216, 241, 240, 0.75);
-  text-align: center;
-}
 
 .column_right {
   display: flex;
@@ -225,13 +216,14 @@
 }
 
 .headline {
+    margin-top: 70px;
     color: midnightblue;
-    background-color: rgba(216, 241, 240, 0.75);
-    font-size:50px;
-    border-radius: 30px;
+    background-color: rgba(216, 241, 240, 0.85);
+    font-size:60px;   /* border-radius: 30px; */
     align-items: center;
-    border-width: 20px;
-    padding: 15px;
+    justify-content: center;
+    border: solid 2px whitesmoke;
+    padding: 45px;
 
 }
 
